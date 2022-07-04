@@ -1,4 +1,5 @@
 # Site settings
+baseURL = "https://milka.fookoff.com"
 languageCode = "en-US"
 title = "Milka - Dalmatian"
 theme = "hugo-split-theme"
@@ -7,16 +8,16 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 # Copyright
 copyright = "Ivan Fedotov"
 
-defaultContentLanguage = 'en'
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
 [languages]
   [languages.en]
-    title = 'Milka - Dalmatian'
+    title = "Milka - Dalmatian"
     weight = 1
   [languages.ru]
-    languagedirection = 'ru'
-    title = 'Милка - Далматин'
+    languagedirection = "ru"
+    title = "Милка - Далматин"
     weight = 2
 
 [params]
@@ -55,12 +56,12 @@ defaultContentLanguageInSubdir = true
 
       [[params.links.list2.link]]
         text = "WhatsApp"
-        url = "mailto://milka@spam.fookoff.com"
+        url = "#"
 
       [[params.links.list2.link]]
         text = "Viber"
-        url = "https://instagram.com/milka_dalmatian"
+        url = "#"
 
       [[params.links.list2.link]]
         text = "Vkontakte"
-        url = "https://t.me/subject108"
+        url = "#"

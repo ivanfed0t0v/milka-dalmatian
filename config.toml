@@ -1,0 +1,40 @@
+# Site settings
+baseURL = "https://milka.fookoff.com"
+languageCode = "en-US"
+title = "Milka - Dalmatian"
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Copyright
+copyright = "Ivan Fedotov"
+
+[params]
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background.jpg"
+      position = "center center"
+
+  # Links
+  [[params.links]]
+    [params.links.list1]
+      heading = "Contact owners"
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "mailto://milka@spam.fookoff.com"
+
+      [[params.links.list1.link]]
+        text = "Instagram"
+        url = "https://instagram.com/milka_dalmatian"
+
+      [[params.links.list1.link]]
+        text = "Telegram"
+        url = "https://t.me/subject108"

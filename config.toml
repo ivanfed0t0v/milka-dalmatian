@@ -1,0 +1,66 @@
+# Site settings
+languageCode = "en-US"
+title = "Milka - Dalmatian"
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Copyright
+copyright = "Ivan Fedotov"
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    title = 'Milka - Dalmatian'
+    weight = 1
+  [languages.ru]
+    languagedirection = 'ru'
+    title = 'Милка - Далматин'
+    weight = 2
+
+[params]
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background.jpg"
+      position = "center center"
+
+  # Links
+  [[params.links]]
+    [params.links.list1]
+      heading = "Contact owners"
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "mailto://milka@spam.fookoff.com"
+
+      [[params.links.list1.link]]
+        text = "Instagram"
+        url = "https://instagram.com/milka_dalmatian"
+
+      [[params.links.list1.link]]
+        text = "Telegram"
+        url = "https://t.me/subject108"
+
+    [params.links.list2]
+      heading = "ㅤ"
+
+      [[params.links.list2.link]]
+        text = "WhatsApp"
+        url = "mailto://milka@spam.fookoff.com"
+
+      [[params.links.list2.link]]
+        text = "Viber"
+        url = "https://instagram.com/milka_dalmatian"
+
+      [[params.links.list2.link]]
+        text = "Vkontakte"
+        url = "https://t.me/subject108"
